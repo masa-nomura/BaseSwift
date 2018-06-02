@@ -6,6 +6,19 @@
 //  Copyright © 2017 MasakazuNomura. All rights reserved.
 //
 
+// gitを初回に選択し忘れた時．
+// Xcodeを終了
+// ターミナル起動
+// cd <プロジェクト名>
+// find .
+// "UserInterfaceState.xcuserstate"を見つけ，ファイル名を全てコピー
+// echo "paste the UserInterfaceState.xcuserstate file here" >.gitignore
+// cat .gitignore
+// git init
+// git add .
+// git commit -m "You can type a comment here like now under source control"
+
+
 import Foundation
 import UIKit
 
